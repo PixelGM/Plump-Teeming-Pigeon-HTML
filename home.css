@@ -1,0 +1,97 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.home-image {
+  width: 1621px;
+  height: 1001px;
+  object-fit: cover;
+}
+.home-right-sidebar {
+  width: 300px;
+  height: 998px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-nav {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 45px;
+}
+.home-image1 {
+  width: 98px;
+  height: 309px;
+  object-fit: cover;
+}
+.home-link {
+  color: rgb(85, 85, 85);
+  font-size: 22px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Zen Maru Gothic;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.home-text {
+  color: #555555;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: 0px;
+  text-align: center;
+  font-family: Zen Maru Gothic;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+.home-text1 {
+  color: #555555;
+  font-size: 22px;
+  font-style: normal;
+  text-align: center;
+  font-family: Zen Maru Gothic;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+.home-text2 {
+  color: #555555;
+  font-size: 22px;
+  font-style: normal;
+  text-align: center;
+  font-family: Zen Maru Gothic;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+.home-text3 {
+  color: #555555;
+  font-size: 22px;
+  font-style: normal;
+  text-align: center;
+  font-family: Zen Maru Gothic;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+@media(max-width: 767px) {
+  .home-right-sidebar {
+    height: 70vh;
+  }
+}
