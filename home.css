@@ -8,28 +8,32 @@
   justify-content: flex-end;
 }
 .home-image {
-  width: 1621px;
+  width: 1657px;
   height: 1001px;
   object-fit: cover;
 }
 .home-right-sidebar {
-  width: 300px;
+  width: 499px;
   height: 998px;
   display: flex;
-  padding: var(--dl-space-space-twounits);
   position: relative;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: 0px;
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
 .home-nav {
+  width: 236px;
   display: flex;
   align-self: stretch;
   align-items: flex-start;
-  padding-top: 45px;
-  padding-left: 45px;
+  padding-top: 0px;
+  padding-left: 0px;
   padding-right: 0px;
   flex-direction: column;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
 }
 .home-image1 {
   width: 98px;
@@ -47,7 +51,7 @@
   text-decoration: none;
 }
 .home-text {
-  color: #555555;
+  color: rgb(85, 85, 85);
   font-size: 22px;
   font-style: normal;
   margin-top: 0px;
@@ -58,8 +62,8 @@
   letter-spacing: 1px;
   text-transform: lowercase;
 }
-.home-text1 {
-  color: #555555;
+.home-text01 {
+  color: rgb(85, 85, 85);
   font-size: 22px;
   font-style: normal;
   text-align: center;
@@ -69,8 +73,8 @@
   letter-spacing: 1px;
   text-transform: lowercase;
 }
-.home-text2 {
-  color: #555555;
+.home-text02 {
+  color: rgb(85, 85, 85);
   font-size: 22px;
   font-style: normal;
   text-align: center;
@@ -80,13 +84,36 @@
   letter-spacing: 1px;
   text-transform: lowercase;
 }
-.home-text3 {
-  color: #555555;
+.home-text03 {
+  color: rgb(85, 85, 85);
   font-size: 22px;
   font-style: normal;
   text-align: center;
   font-family: Zen Maru Gothic;
   font-weight: 900;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+.home-text06 {
+  color: rgb(85, 85, 85);
+  font-size: 22px;
+  font-style: normal;
+  text-align: center;
+  font-family: Zen Maru Gothic;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+.home-text09 {
+  color: rgb(85, 85, 85);
+  font-size: 22px;
+  font-style: normal;
+  text-align: center;
+  font-family: Zen Maru Gothic;
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
   letter-spacing: 1px;
   text-transform: lowercase;
 }
